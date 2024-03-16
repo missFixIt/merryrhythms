@@ -1,87 +1,541 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/starter.css">
-    <title>Bootstrap npm starter</title>
-  </head>
-  <body>
-    <div class="col-md-8 py-5 px-3 mx-auto">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Merry Rhythms - Suzuki Piano Instruction in San Diego's North County</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="scss/custom.scss" rel="stylesheet" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">  
+<style>
+.custom-shape-divider-top-1708362721 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -10;
+}
 
-      <header class="pb-3 mb-5 border-bottom">
-        <h1 class="h4">
-          <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-inline-block mr-2" viewBox="0 0 118 94" role="img"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-            <span>npm starter</span>
-          </a>
-        </h1>
-      </header>
+.custom-shape-divider-top-1708362721 svg {
+    position: relative;
+    display: block;
+    width: calc(160% + 1.3px);
+    height: 316px;
+}
 
-      <h1>Get started with Bootstrap</h1>
-      <div class="col-lg-8 px-0">
-        <p class="lead">You've successfully loaded up the Bootstrap npm starter project! It's loaded up with <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap 4</a>, <a href="https://icons.getbootstrap.com/">Bootstrap Icons</a>, and tooling for compiling our Sass and JavaScript to your needs.</p>
-        <p>If this button appears blue and the link appears purple, you've done it!</p>
+.custom-shape-divider-top-1708362721 .shape-fill {
+    fill: #190202;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1708362721 svg {
+        width: calc(160% + 1.3px);
+        height: 159px;
+    }
+}
+</style>
+</head>
+  <body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0" >
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-xl bg-success shadow-lg">
+        <!-- <div class="custom-shape-divider-top-1708362721">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+      </div> -->
+        <div class="container px-2">
+          <div class="ms-0 me-auto">
+           <a class="display-3 text-primary fw-semibold text-decoration-none" href="index.html">Merry Rhythms</a>
+            </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end align-items-xxl-start">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="suzuki.html">Suzuki</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="benefits.html">Benefits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonials.html">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownBlog"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >News & Events</a
+                >
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownBlog"
+                >
+                  <li>
+                    <a class="dropdown-item" href="blog-home.html">Blog</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-post.html">Upcoming Events</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-post.html">Past Recitals</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownPortfolio"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Music</a
+                >
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownPortfolio"
+                >
+                  <li>
+                    <a class="dropdown-item" href="portfolio-overview.html"
+                      >Recitals</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="portfolio-item.html"
+                      >Mary's Music</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Banner -->
+      <div class="bg-dark shadow-sm">
+        <div class="container px-2">
+        <p class="h6 fw-semibold text-uppercase fst-italic text-light">In-home and online piano instruction in North San Diego County</p>
       </div>
-
-      <button type="button" class="btn btn-primary mr-3" data-toggle="modal" data-target="#exampleModal">Toggle example modal</button>
-      <a href="#" class="text-success">Example link</a>
-
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+      </div>
+      <!-- Header-->
+      <header class="py-3">
+        <div class="container">
+          <div class="row gx-5 p-4 bg-white shadow text-center rounded-1 m-auto">
+            <h1 class="display-4 text-primary mb-2">
+              Nurturing young musicians
+            </h1> 
+            <h3>for a lifetime of music!</h3>  
+            <div class="col-12 col-md-6">
+              <img
+                class="img-fluid rounded-1 my-md-5"
+                src="images/CL at the piano.jpg"
+                alt="..."
+              />
             </div>
-            <div class="modal-body">
-              If you're seeing this modal after clicking the button on the page, Bootstrap's CSS and JS are both working properly.
+            <div class="col-12 col-md-6">
+              <div class="my-5 text-xl-start">
+                <p class="lead fw-normal mb-4">
+                    <ul class="text-sm-start text-light-emphasis">
+                        <li class="hero-list pb-3"><strong>Develop Life Skills:</strong> Concentration, problem-solving, self-expression, fine motor skills, time management, and more.</li>
+                        <li class="hero-list pb-3"><strong>Neurological Receptivity:</strong> Ideal for ages 3-5, enhancing aural learning and cognitive development.</li>
+                        <li class="hero-list pb-3"><strong>Proven Benefits:</strong> Increased language, reasoning, spatial intelligence, creativity, and problem-solving.</li>
+                        <li class="hero-list pb-3"><strong>Academic Boost:</strong> Positive correlation between music lessons and IQ, higher SAT scores.</li>
+                        <li class="hero-list pb-3"><strong>Lifetime Passion:</strong> Foster a love for music, enriching your child's life.</li>
+                    </ul>
+                </p>
+                <div
+                  class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start"
+                >
+                  <a
+                    class="btn btn-primary btn-lg px-4 me-sm-3 text-white"
+                    href="#features"
+                    >Get Started</a
+                  >
+                  <a class="btn btn-outline-primary btn-lg px-4" href="#!"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+           
+          </div>
+        </div>
+      </header>
+       <!-- Features section-->
+       <div>
+        <div class="row">
+          <div class="col">
+            <audio src="images/Chloe Ethan at the piano.MOV">Listen</audio>
+          </div>
+        </div>
+
+       </div>
+    <!-- Features section-->
+    <section class="py-5 bg-info" id="features">
+      <div class="container px-5 my-5">
+        <div class="row gx-5">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h2 class="display-3 mb-0">Suzuki Method</h2>
+            <h3>A Unique Approach</h3>
+          </div>
+          <div class="col-lg-8">
+            <div class="row gx-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+              <div class="col mb-5 h-100">
+                <div
+                  class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
+                >
+                  <i class="bi bi-diagram-3"></i>
+                </div>
+                <h2 class="h5">Inclusive Belief</h2>
+                <p class="mb-0">
+                  Musical ability can be developed in all children.
+                </p>
+              </div>
+              <div class="col mb-5 h-100">
+                <div
+                  class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
+                >
+                  <i class="bi bi-alarm"></i>
+                </div>
+                <h2 class="h5">Early Start</h2>
+                <p class="mb-0">
+                  Begin at a young age for optimal skill development.
+                </p>
+              </div>
+              <div class="col mb-5 h-100">
+                <div
+                  class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
+                >
+                  <i class="bi bi-house-heart"></i>
+                </div>
+                <h2 class="h5">Parental Involvement</h2>
+                <p class="mb-0">
+                  Parents actively participate in the learning journey.
+                </p>
+              </div>
+              <div class="col mb-5 h-100">
+                <div
+                  class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
+                >
+                  <i class="bi bi-balloon"></i>
+                </div>
+                <h2 class="h5">Play-First Approach</h2>
+                <p class="mb-0">
+                  Comfort with the instrument precedes reading music.
+                </p>
+              </div>
+              <div class="col mb-5 mb-md-0 h-100">
+                  <div
+                    class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
+                  >
+                    <i class="bi bi-bullseye"></i>
+                  </div>
+                  <h2 class="h5">Contextual Technique</h2>
+                  <p class="mb-0">
+                      Learn techniques through playing actual pieces, not just technical exercises.
+                  </p>
+                </div>
+                <div class="col h-100">
+                  <div
+                    class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
+                  >
+                    <i class="bi bi-calendar-week"></i>
+                  </div>
+                  <h2 class="h5">Regular Performances</h2>
+                  <p class="mb-0">
+                      Students showcase skills frequently, fostering confidence.
+                  </p>
+                </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+            <!-- About section-->
+            <div class="py-5">
+                <div class="container p-5 my-5 bg-success">
+                  <h2 class="h2 display-3 text-light">About Mary Mathews</h2>
+                  <div class="row ">
+                    <div class="col-xl-6">
+                      <ul class="text-white list-unstyled fs-5">
+                        <li><span class="fw-bold fs-4">Music Teachers National Association</span>
+                         Member</li>
+                        <li><span class="fw-bold fs-4">Suzuki</span> Trained</li>
+                  
+                        <li>Founding teacher of the <span class="fw-bold fs-4">Royal Conservatory Music Development Program</span></li>
+                        <li><span class="fw-bold fs-4">15+ years</span> teaching experience</li>
+                      </ul>
+                    </div>
+                    <div class=" m-auto col-xl-6 text-black-50 fs-5">
+                     
+                      <p>Hi, I'm Mary!</p>    <img
+                      class="img-thumbnail float-end rounded-3 m-1"
+                      src="images/MaryMathews.jpg"
+                      alt="Mary Mathews"
+                    /><p>When I was 8 years old, I took my first classical piano lesson, and my life was forever changed.</p>
+                      <p>In 2010 I became a full time piano teacher, devoting my life to instilling a love of music in each child I teach.</p>  
+                       <p>In between, I worked in television production by day, and played in bands by night. All throughout, I've kept music in my life, and I hope you and your children will too.</p> 
+              
+                       <p>Whether you're a musician wanting to pass that down to your children, or have never played music yourself, but want your child to benefit from a life of music, I'd love to meet you and your child and pass along the gifts I've been given by my teachers.</p> 
+                   
+                </div>
 
-      <hr class="my-5 w-25 mx-0">
-
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Adding Bootstrap Icons</h2>
-          <p><a href="https://icons.getbootstrap.com/">Bootstrap Icons</a> are included with the SVG sprite here, but there are other <a href="https://icons.getbootstrap.com/#usage">usage options</a>, too. They're styleable with text utilities and more.</p>
-
-          <svg class="bi text-danger" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#heart-fill"/>
-          </svg>
-          <svg class="bi text-dark" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#toggles"/>
-          </svg>
-          <svg class="bi text-primary" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#shop"/>
-          </svg>
+                  </div>
+                  <div
+                  class="d-grid gap-3 d-sm-flex justify-content-center mt-4"
+                >
+                  <a
+                    class="btn btn-lg btn-light bg-gradient text-dark"
+                    href="/about.html"
+                    >More About Me</a
+                  >
+            
+                </div>
+                </div>
+              </div>
+     
+      <!-- Testimonial section-->
+      <div class="py-5 bg-dark text-bg-dark">
+        <div class="container px-5 my-5">
+          <div class="row gx-5 justify-content-center">
+            <div class="col-lg-10 col-xl-7">
+              <div class="text-center">
+                <div class="fs-4 mb-4 fst-italic">
+                  "Mary...You are miles above all of the rest. My children have both grown so much as musicians..."
+                </div>
+                <div class="d-block align-items-center justify-content-center">
+                  <img
+                    class="rounded-circle mb-3"
+                    src="images/testimonial_small.png"
+                    alt="..."
+                  />
+                  <div class="fst-italic fs-6">
+                    Canora Podd
+                    ~
+                    June 2011
+                  </div>
+                </div>
+             <div
+              class="d-grid gap-3 d-sm-flex justify-content-center mt-4"
+            >
+              <a
+                class="btn btn-primary btn-lg px-4 me-sm-3"
+                href="/testimonials.html"
+                >Read More</a
+              >
+        
+            </div>
+              </div>
+             
+              
+            </div>
+           
+          </div>
+          
         </div>
+        
+      </div>
+      <!-- Blog preview section-->
+      <section class="py-5">
+        <div class="container px-5 my-5">
+          <div class="justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+              <div class="text-center">
+                <h2 class="fw-bolder">Shop for Music and Supplies</h2>
+                <p class="lead fw-normal text-muted mb-5">
+                 Everything you need to set your student up for success.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-5">
+            <div class="col-md-4 mb-5">
+              <div class="card shadow border-0 align-items-center">
+                <img
+                  class="card-img-top p-1 mt-3 shadow w-75"
+                  src="https://www.sheetmusicplus.com/dw/image/v2/BJFX_PRD/on/demandware.static/-/Sites-smp-main/default/dwd1bfee8a/images/8218/18128218_cover-large_file.png?sw=450&sh=600&sm=fit"
+                  alt="..."
+                />
+                <div class="card-body p-4">
+                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    Sheet Music
+                  </div>
+                  <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">Suzuki Piano School, Volume 1</h5></a
+                  >
+                  <p class="card-text mb-0">
+                    You'll be buying a lot of sheet music!
+                  </p>
+                </div>
+        
+              </div>
+            </div>
+            <div class="col-md-4 mb-5">
+              <div class="card shadow border-0 align-items-center">
+                <img
+                class="card-img-top p-1 mt-3 shadow w-75 "
+                  src="https://www.young-musicians.com/v/vspfiles/photos/FRMY-1.jpg?v-cache=1687963436"
+                  alt="..."
+                />
+                <div class="card-body p-4">
+                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    Footrests
+                  </div>
+                  <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">Stacked wooden footrest</h5></a
+                  >
+                  <p class="card-text mb-0">
+                    This keeps the kid's feet from danglin'!
+                  </p>
+                </div>
+              
+              </div>
+            </div>
+            <div class="col-md-4 mb-5">
+              <div class="card shadow border-0 align-items-center">
+                <img
+                class="card-img-top m-3 shadow w-75 "
+                  src="https://www.cpsimports.com/files/G2-W_copy.jpg"
+                  alt="..."
+                />
+                <div class="card-body p-4">
+                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    Chairs and cushions
+                  </div>
+                  <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">Adjustable Chair</h5></a
+                  >
+                  <p class="card-text mb-0">
+                  It's very important that the student can actually reach the keys!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+          <a class="btn btn-primary bg-gradient text-white">Shop Now</a>
+          </div>
+          </div>
+        </section>
+      
+          <!-- Call to action-->
+          <section>
+          <div class="container text-center bg-secondary p-4">
+      
+          <aside class="bg-white bg-gradient rounded-3 p-4 p-sm-5 m-3">
+            <div
+              class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start"
+            >
+            
+              <div class="mb-4 mb-xl-0">
+            
+                <div class="text-secondary-emphasis">Thank you for visiting my website. As my gift, you may download and print out one of my original piano compositions, “Tranquility Waltz.” I hope you enjoy it!</div>
+        
+                <div class="opacity-75 fw-bold">
+                    <div class="fs-4">Tranquility Waltz</div>
+                    <div class="fs-6">Original Piano Composition</div>
+                </div>
 
-        <div class="col-md-6">
-          <h2>Guides</h2>
-          <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-          <ul class="icon-list">
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap quick start guide</a></li>
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/webpack/">Bootstrap Webpack guide</a></li>
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/build-tools/">Contributing to Bootstrap</a></li>
-          </ul>
+              </div>
+              <div class="ms-xl-4">
+                <div class="mb-2">
+          
+                  <a
+                  href="assets/Tranquility Waltz.pdf"
+                    class="btn btn-primary text-light fw-bolder"
+                    id="button-gift"
+                    type="button"
+                  >
+        
+                    <span class="bi bi-download"></span> Download PDF 
+                  </a>
+                </div>
+        
+              </div>
+            </div>
+          </aside>
+        
+      
+          </div>
+        </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">
+              Copyright &copy; Mary Mathews 2024
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Privacy</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Terms</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Contact</a>
+          </div>
         </div>
       </div>
-
-      <hr class="my-5">
-
-      <p class="text-muted">Created and open sourced by the Bootstrap team. Licensed MIT.</p>
-    </div>
-
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script type="module" src="assets/js/starter.js"></script>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
   </body>
 </html>

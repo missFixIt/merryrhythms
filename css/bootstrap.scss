@@ -1,0 +1,86 @@
+$white: #ffffff;
+$color-theme_AdobeColor-Everyday-luxury-2-hex: #8c2842;
+$color-theme_AdobeColor-Everyday-luxury-3-hex: #b7bfa8;
+$color-theme_AdobeColor-Everyday-luxury-4-hex: #d9816b;
+$color-theme_AdobeColor-Everyday-luxury-5-hex: #c0bbb8;
+$light: #f2ebe1;
+$dark: #2c2825;
+$primary: #8c2842;
+$secondary: #c0bbb8;
+$info: #b7bfa8;
+$success: #d9816b;
+$warning: #fecb90;
+$danger: #1afdc0;
+$font-sans-serif: "Montserrat", sans-serif;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);
+// nice black#292921, nice red #EA0017 gold #9A7F00 dark gray#444444
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+}
+
+.bg-featured-blog {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 15rem;
+}
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+p,
+ul {
+  font-family: "Cardo", serif;
+  line-height: 1.4;
+  font-weight: 400;
+}
+@import "node_modules/bootstrap/scss/bootstrap";
+/* Color Theme Swatches in Hex */
+// $color-theme_AdobeColor-Everyday-luxury-1-hex: #f2ebe1;
+// $color-theme_AdobeColor-Everyday-luxury-2-hex: #8c2842;
+// $color-theme_AdobeColor-Everyday-luxury-3-hex: #b7bfa8;
+// $color-theme_AdobeColor-Everyday-luxury-4-hex: #d9816b;
+// $color-theme_AdobeColor-Everyday-luxury-5-hex: #c0bbb8;
+
+/* Color Theme Swatches in RGBA */
+// $color-theme_AdobeColor-Everyday-luxury-1-rgba: rgba(242, 235, 225, 1);
+// $color-theme_AdobeColor-Everyday-luxury-2-rgba: rgba(140, 40, 66, 1);
+// $color-theme_AdobeColor-Everyday-luxury-3-rgba: rgba(183, 191, 168, 1);
+// $color-theme_AdobeColor-Everyday-luxury-4-rgba: rgba(217, 129, 107, 1);
+// $color-theme_AdobeColor-Everyday-luxury-5-rgba: rgba(192, 187, 184, 1);
+
+/* Color Theme Swatches in HSLA */
+// $color-theme_AdobeColor-Everyday-luxury-1-hsla: hsla(35, 39, 91, 1);
+// $color-theme_AdobeColor-Everyday-luxury-2-hsla: hsla(344, 55, 35, 1);
+// $color-theme_AdobeColor-Everyday-luxury-3-hsla: hsla(80, 15, 70, 1);
+// $color-theme_AdobeColor-Everyday-luxury-4-hsla: hsla(11, 59, 63, 1);
+// $color-theme_AdobeColor-Everyday-luxury-5-hsla: hsla(22, 5, 73, 1);
